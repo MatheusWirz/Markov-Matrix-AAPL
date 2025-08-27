@@ -6,7 +6,7 @@ import yfinance as yf
 # Principal function
 def markov(ticker):
     # Download data
-    df = yf.download(ticker, period="5y", auto_adjust=True)
+    df = yf.download(ticker, period="1y", auto_adjust=True)
     df['Returns'] = df['Close'].pct_change()
 
     # Checks if the signal is positive or negative
@@ -28,4 +28,5 @@ def markov(ticker):
     print('\n\nMatrix of Probabilities: \n' ,prob_matrix)
 
 markov("AAPL")
+
 
