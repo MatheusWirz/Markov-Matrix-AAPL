@@ -1,4 +1,4 @@
-# Análise de Cadeias de Markov para Retornos de Ações
+# Análise de Cadeias de Markov para Retornos de Ações da APPLE
 
 ## Descrição do Projeto
 
@@ -35,3 +35,4 @@ Ao analisar o ticker `AAPL`, o programa gera as seguintes matrizes:
 | **Estado_Anterior** | | |
 | **Negativo** | 45.45% | 54.55% |
 | **Positivo** | 46.46% | 53.54% |
+
